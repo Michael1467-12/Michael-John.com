@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Michael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+}
+
+.header-content h1 {
+    margin-left: 10px;
+}
+
+.user p {
+    margin-right: 10px;
+}
+
+.note {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.note p {
+    color: red;
+}
+
+.hostels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hostel-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.hostel-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hostel-card h2 {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.hostel-card p {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 16px;
+    }
+    .user p {
+        font-size: 12px;
+    }
+    .hostel-card h2 {
+        font-size: 16px;
+    }
+    .hostel-card p {
+        font-size: 12px;
+    }
+}
+
+
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Select Hostel</h1>
+                </div>
+                <div class="user">
+                    <p>Michael John</p>
+                </div>
+            </div>
+        </header>
+        
+        <div class="note">
+            <p><strong>Note:</strong> You can not change the hostel after selection. Think about which to choose before selection.</p>
+        </div>
+
+        <div class="hostels">
+            <!-- Hostel B -->
+            <div class="hostel-card">
+                <h2>HOSTEL B</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,295,000</p>
+            </div>
+            
+            <!-- Hostel C -->
+            <div class="hostel-card">
+                <h2>HOSTEL C</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,295,000</p>
+            </div>
+            
+            <!-- Hostel D -->
+            <div class="hostel-card">
+                <h2>HOSTEL D</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,305,000</p>
+            </div>
+            
+            <!-- Hostel E -->
+            <div class="hostel-card">
+                <h2>HOSTEL E</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,305,000</p>
+            </div>
+            
+            <!-- Hostel F -->
+            <div class="hostel-card">
+                <h2>HOSTEL F</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,355,000</p>
+            </div>
+            
+            <!-- Hostel G -->
+            <div class="hostel-card">
+                <h2>HOSTEL G</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,370,000</p>
+            </div>
+            
+            <!-- Hostel H -->
+            <div class="hostel-card">
+                <h2>HOSTEL H</h2>
+                <p>Capacity: 4</p>
+                <p>Price: ₦ 1,403,400</p>
+            </div>
+            
+            <!-- Hostel I -->
+            <div class="hostel-card">
+                <h2>HOSTEL I</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,430,000</p>
+            </div>
+            
+            <!-- Hostel J -->
+            <div class="hostel-card">
+                <h2>HOSTEL J</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,440,000</p>
+            </div>
+            
+            <!-- Hostel K -->
+            <div class="hostel-card">
+                <h2>HOSTEL K</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,470,000</p>
+            </div>
+
+            <!-- Hostel L -->
+            <div class="hostel-card">
+                <h2>HOSTEL L</h2>
+                <p>Capacity: 6</p>
+                <p>Price: ₦ 1,490,000</p>
+            </div>
+
+            <!-- Hostel M -->
+            <div class="hostel-card">
+                <h2>HOSTEL M</h2>
+                <p>Capacity: 8</p>
+                <p>Price: ₦ 1,506,000</p>
+            </div>
+
+        
+                
